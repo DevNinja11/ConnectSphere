@@ -1,110 +1,129 @@
-# Social-Network
+## ConnectSphere
 
-Social-Network is a Stateful app built with [Spring Boot](http://spring.io/projects/spring-boot), [MySQL](https://www.mysql.com/) and [React](https://reactjs.org/).
+## Project Overview
 
-Features:
-- Routing
-- User authentication: Register/Login/Logout
-- 3 User Roles: Root, Admin and User
-- Promoting/Demoting users to Admin/User
-- Creating and deleting users
-- Editing user profile
-- Searching for friends
-- Sending and accepting friend requests
-- Removing friends from the friends list
-- Adding and deleting photos
-- Creating and deleting posts
-- Creating and deleting comments
-- Chat functionality: writing and receiving messages from your friends
-- Logs history
+I have developed a social web application, named ConnectSphere. It is a modern, stateful web application designed to facilitate social interactions and community engagement. This platform enables users to connect, communicate, and share content through a robust set of features. The application supports user authentication, role management, social networking functionalities, and multimedia sharing, all while maintaining a seamless user experience.
 
-The project is deployed on [Heroku](https://social-network-kl.herokuapp.com/).
+## Tech Stack
+
+**Backend:**
+- **Framework:** Spring Boot
+- **Database:** MySQL
+- **Java Version:** 11
+
+**Frontend:**
+- **Library:** React
+- **Package Manager:** npm
+
+**Deployment:**
+- **Platform:** Heroku
+
+**Additional Services:**
+- **Image Management:** Cloudinary (for photo storage and management)
+
+## Features
+
+- **Routing:** Comprehensive navigation across the application.
+- **User Authentication:**
+  - Register, Login, and Logout functionality.
+  - User roles: Root, Admin, and User.
+  - Role Management: Promote/Demote users between Admin and User roles.
+  - User Management: Create and delete users; Edit user profiles.
+- **Social Networking:**
+  - Search for friends.
+  - Send and accept friend requests.
+  - Remove friends from the friends list.
+- **Content Management:**
+  - Add and delete photos.
+  - Create and delete posts.
+  - Create and delete comments.
+- **Chat Functionality:**
+  - Real-time messaging with friends.
+- **Logs History:** Track application activities and user interactions.
+
+## Development and Deployment
+
+### Local Development
+
+1. **Starting the Client:**
+
+   - Navigate to the client directory:
+     ```bash
+     $ cd SocialNetwork/Client
+     ```
+   - Install dependencies:
+     ```bash
+     $ npm install
+     ```
+   - Run the application in development mode:
+     ```bash
+     $ npm start
+     ```
+   - Access the client application at [http://localhost:3000](http://localhost:3000).
+
+2. **Starting the Server:**
+
+   - Navigate to the server directory:
+     ```bash
+     $ cd SocialNetwork/Server
+     ```
+   - Start the server:
+     ```bash
+     $ mvn spring-boot:run
+     ```
+   - The server will be running on port 8000.
+
+### Docker Deployment
+
+1. **Starting the Application:**
+
+   - Navigate to the project root directory:
+     ```bash
+     $ cd SocialNetwork/
+     ```
+   - Launch the application using Docker Compose:
+     ```bash
+     $ docker-compose up -d
+     ```
+   - Access the front-end application at [http://localhost:9090](http://localhost:9090).
+
+2. **Stopping the Application:**
+
+   - To stop the running containers:
+     ```bash
+     $ docker-compose down
+     ```
+
+### Configuration
+
+To enable photo storage, sign up for a Cloudinary account and configure the credentials in the `application.properties` file located at `SocialNetwork/Server/src/main/resources/application.properties`.
 
 **Admin Credentials:**
-- username: john
-- password: 1111
+- **Username:** john
+- **Password:** 1111
 
-## Requirements
+## Notes
 
-1. Java 11
+- Ensure Java 11 is installed for running the backend server.
+- Follow the setup instructions for both manual and Docker-based development to configure your environment effectively.
 
-2. In order to be able to save `Photos` you need to sign up to [Cloudinary](https://cloudinary.com/) and enter your credentials in the `application.properties` file of the Spring Boot app (`SocialNetwork\Server\src\main\resources\application.properties`)
-
-## Start the app
-
-### **Option 1 - Start the Client and the Server manually**
-
-#### 1. Start the Client
-
-To start the Client you need to enter the `SocialNetwork/Client` folder:
-
-```bash
-$ cd SocialNetwork/Client
-```
-
-Install all dependencies:
-
-```bash
-$ npm install
-```
-
-Run the app in the development mode:
-
-```bash
-$ npm start
-```
-
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-#### 2. Start the Server
-
-Go to the root directory of the Spring Boot app:
-
-```bash
-$ cd SocialNetwork/Server
-```
-
-Start the Server:
-
-```bash
-$ mvn spring-boot:run
-```
-The Server is running on port `8000`.
-
-
-### **Option 2 - Start the application in Docker**
-
-1. **Start the application**
-
-Go to the project directory( `SocialNetwork/` ) and run:
-
-```bash
-$ docker-compose up -d
-```
-
-The front-end server will start on port `9090`. To open it enter in your browser:
-
-```bash
-$ http://localhost:9090
-```
-2. **Stop the application**
-
-You can stop the containers with:
-
- ```bash 
- $ docker-compose down
- ```
+For further information, please refer to the documentation provided in the respective directories or contact the project maintainers.
 
 ## App screenshots
 
 1. **Home Page**
 
- ![App Screenshot](readme-images/kl-social-network-home-gregor.PNG)
+ ![j](https://github.com/user-attachments/assets/521396e1-0087-4d9b-9269-96e12cc065a1)
+
 
 2. **Friends Page**
 
- ![App Screenshot](readme-images/kl-social-network-friends-gregor.PNG)
+![H](https://github.com/user-attachments/assets/ebc18212-b0fc-49b3-9c6f-a542811db447)
 
 3. **Photos Page**
 
- ![App Screenshot](readme-images/kl-social-network-photos-gregor.PNG)
+![I](https://github.com/user-attachments/assets/90f01ecf-1210-42dd-ad99-9c88c97da79c)
+
+ ## My Contrubutions
+
+In this Social Media application, I played a crucial role by applying my skills in Java and JavaScript. I focused on developing the back-end using Spring Boot, handling core functionalities such as user authentication, role management, and chat features, all integrated with MySQL for effective data management. For the front-end, I used React to build a user-friendly interface where users can manage friends, photos, and posts. My team members took care of integrating Cloudinary for photo storage and Docker for containerization, ensuring the app ran smoothly and was easy to deploy.
