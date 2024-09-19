@@ -4,42 +4,54 @@
 
 The project is about a social web application, named ConnectSphere. It is a modern, stateful web application designed to facilitate social interactions and community engagement. This platform enables users to connect, communicate, and share content through a robust set of features. The application supports user authentication, role management, social networking functionalities, and multimedia sharing, all while maintaining a seamless user experience.
 
-## Tech Stack
+## Tech Stacks
 
-**Backend:**
-- **Framework:** Spring Boot
-- **Database:** MySQL
-- **Java Version:** 11
+```markdown
+### Tech Stack
 
-**Frontend:**
-- **Library:** React
-- **Package Manager:** npm
+#### Backend
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-Framework%20for%20Java-red)  
+![MySQL](https://img.shields.io/badge/MySQL-Relational%20Database%20Management%20System-orange)  
+![Java 11](https://img.shields.io/badge/Java%2011-Version%2011-blue)
 
-**Deployment:**
-- **Platform:** Heroku
+#### Frontend
+![React](https://img.shields.io/badge/React-Library-green)  
+![npm](https://img.shields.io/badge/npm-Package%20Manager-red)
 
-**Additional Services:**
-- **Image Management:** Cloudinary (for photo storage and management)
+#### Deployment
+![Heroku](https://img.shields.io/badge/Heroku-Deployment%20Platform-purple)  
+```
 
-## Features
+## Key Features
 
-- **Routing:** Comprehensive navigation across the application.
-- **User Authentication:**
+- **User Authentication**
+
+  
   - Register, Login, and Logout functionality.
   - User roles: Root, Admin, and User.
   - Role Management: Promote/Demote users between Admin and User roles.
   - User Management: Create and delete users; Edit user profiles.
-- **Social Networking:**
+ 
+- **Social Networking**
+
+  
   - Search for friends.
   - Send and accept friend requests.
   - Remove friends from the friends list.
-- **Content Management:**
+ 
+- **Content Management**
+
+  
   - Add and delete photos.
   - Create and delete posts.
   - Create and delete comments.
-- **Chat Functionality:**
+ 
+- **Chat Functionality**
   - Real-time messaging with friends.
-- **Logs History:** Track application activities and user interactions.
+ 
+  
+- **Logs History:**
+- Track application activities and user interactions.
 
 ## Development and Deployment
 
