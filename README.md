@@ -21,7 +21,6 @@ The project is about a social web application, named ConnectSphere. It is a mode
 ## Key Features
 
 - **User Authentication**
-
   
   - Register, Login, and Logout functionality.
   - User roles: Root, Admin, and User.
@@ -30,14 +29,12 @@ The project is about a social web application, named ConnectSphere. It is a mode
  
 - **Social Networking**
 
-  
   - Search for friends.
   - Send and accept friend requests.
   - Remove friends from the friends list.
  
 - **Content Management**
 
-  
   - Add and delete photos.
   - Create and delete posts.
   - Create and delete comments.
@@ -45,90 +42,13 @@ The project is about a social web application, named ConnectSphere. It is a mode
 - **Chat Functionality**
   - Real-time messaging with friends.
  
-  
 - **Logs History:**
 - Track application activities and user interactions.
 
-## Development and Deployment
-
-### Local Development
-
-1. **Starting the Client:**
-
-   - Navigate to the client directory:
-     ```bash
-     $ cd SocialNetwork/Client
-     ```
-   - Install dependencies:
-     ```bash
-     $ npm install
-     ```
-   - Run the application in development mode:
-     ```bash
-     $ npm start
-     ```
-   - Access the client application at [http://localhost:3000](http://localhost:3000).
-
-2. **Starting the Server:**
-
-   - Navigate to the server directory:
-     ```bash
-     $ cd SocialNetwork/Server
-     ```
-   - Start the server:
-     ```bash
-     $ mvn spring-boot:run
-     ```
-   - The server will be running on port 8000.
-
-### Docker Deployment
-
-1. **Starting the Application:**
-
-   - Navigate to the project root directory:
-     ```bash
-     $ cd SocialNetwork/
-     ```
-   - Launch the application using Docker Compose:
-     ```bash
-     $ docker-compose up -d
-     ```
-   - Access the front-end application at [http://localhost:9090](http://localhost:9090).
-
-2. **Stopping the Application:**
-
-   - To stop the running containers:
-     ```bash
-     $ docker-compose down
-     ```
-
-### Configuration
-
-To enable photo storage, sign up for a Cloudinary account and configure the credentials in the `application.properties` file located at `SocialNetwork/Server/src/main/resources/application.properties`.
-
-**Admin Credentials:**
-- **Username:** john
-- **Password:** 1111
-
-## Notes
-
-- Ensure Java 11 is installed for running the backend server.
-- Follow the setup instructions for both manual and Docker-based development to configure your environment effectively.
-
-For further information, please refer to the documentation provided in the respective directories or contact the project maintainers.
-
-## App screenshots
-
-1. **Home Page**
-
- ![j](https://github.com/user-attachments/assets/521396e1-0087-4d9b-9269-96e12cc065a1)
-
-
-2. **Friends Page**
+## Snapshots
 
 ![H](https://github.com/user-attachments/assets/ebc18212-b0fc-49b3-9c6f-a542811db447)
 
-3. **Photos Page**
 
 ![I](https://github.com/user-attachments/assets/90f01ecf-1210-42dd-ad99-9c88c97da79c)
 
