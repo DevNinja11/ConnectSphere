@@ -6,9 +6,6 @@ The project is about a social web application, named ConnectSphere. It is a mode
 
 ## Tech Stacks
 
-```markdown
-### Tech Stack
-
 #### Backend
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-Framework%20for%20Java-red)  
 ![MySQL](https://img.shields.io/badge/MySQL-Relational%20Database%20Management%20System-orange)  
@@ -19,8 +16,7 @@ The project is about a social web application, named ConnectSphere. It is a mode
 ![npm](https://img.shields.io/badge/npm-Package%20Manager-red)
 
 #### Deployment
-![Heroku](https://img.shields.io/badge/Heroku-Deployment%20Platform-purple)  
-```
+![Heroku](https://img.shields.io/badge/Heroku-Deployment%20Platform-purple) 
 
 ## Key Features
 
