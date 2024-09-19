@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-I have developed a social web application, named ConnectSphere. It is a modern, stateful web application designed to facilitate social interactions and community engagement. This platform enables users to connect, communicate, and share content through a robust set of features. The application supports user authentication, role management, social networking functionalities, and multimedia sharing, all while maintaining a seamless user experience.
+The project is about a social web application, named ConnectSphere. It is a modern, stateful web application designed to facilitate social interactions and community engagement. This platform enables users to connect, communicate, and share content through a robust set of features. The application supports user authentication, role management, social networking functionalities, and multimedia sharing, all while maintaining a seamless user experience.
 
 ## Tech Stack
 
